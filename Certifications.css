@@ -1,0 +1,78 @@
+.outer-box>h2{
+    margin-bottom: 4rem;
+   
+}
+.outer-box{
+    width: 100%;
+    height: 100vh !important;
+    margin-bottom: 100px;
+    
+}
+.heading{
+    align-items: center;
+    justify-content: center;
+    padding-left: 570px;
+    font-size: 60px;
+    color:green;
+}
+.cert-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 4.5rem;
+    padding-left: 100px;
+    margin-bottom: 100px;
+}
+.cert-container>.cert-box{
+    position: relative;
+    border-radius: 2rem !important;
+    box-shadow: 0 0 1rem var(--bg-color);
+    overflow: hidden;
+    display: flex;
+}
+.cert-container{
+    margin-left: 170px;
+}
+.cert-box{
+    width: 450px;
+}
+.cert-box>img{
+    width: 450px;
+    transition: .5s ease;
+}
+.cert-box:hover img{
+    transform: scale(1.1);
+}
+.cert-box>img{
+    width: 100%;
+ [][;'']   height: 300px;
+    width: 450px;
+}
+.cert-box .cert-layer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background: linear-gradient(rgba(0,0,0,.1),black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+.cert-layer>h4{
+    font-size: 3rem;
+    color: white;
+}
+.cert-layer>p{
+    font-size: 1.6rem;
+    margin:.3rem 0 1rem;
+    color: #fff;
+}
+.cert-box:hover .cert-layer{
+    transform: translateY(0);
+}

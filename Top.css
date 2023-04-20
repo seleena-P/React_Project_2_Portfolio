@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Sofia+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Sofia+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@300&display=swap');
+.myimage{
+    display:flex;
+    height: 100vh;
+    margin:0;
+    padding-right:0;
+    align-items: flex-end;
+}
+.topcontainer{
+    background:url(https://media.istockphoto.com/id/1369274625/vector/abstract-diagonal-lines-white-background-with-smooth-stripes-minimal-website-backdrop.jpg?s=612x612&w=0&k=20&c=TEN1TaY7nkekMC5HbE6-F1T5Pe96bLx-Tu2Dugy3SYE=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.top-right{
+    float: right;
+    padding-right: 0%;
+}
+.top-left >h2{
+    top: 300px;
+    left:270px;
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+   font-size: 60px;
+   letter-spacing: 2px;
+}
+.top-left >h4{
+    top: 390px;
+    left:270px;
+    position: absolute;
+    font-family: 'Alumni Sans', sans-serif;
+   font-size: 40px;
+   letter-spacing: 1px;
+   font-weight: 500;
+}
+.topcontent-container::before{
+    position: absolute;
+    content:'';
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    left:-10%;
+    bottom:9%;
+    background: linear-gradient(45deg,#fbf704ca,rgba(62, 218, 15, 0.846));
+   
+}
+@keyframes object1{
+    50%{
+        left:-30;
+        bottom:7%;
+    }
+}
+.topcontent-container::after{
+    position: absolute;
+    content:'';
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    left:55%;
+    bottom:10%;
+    background: linear-gradient(45deg,#98e10fc8,rgb(218, 215, 15));
+    animation: object1 6s linear infinite;
+}

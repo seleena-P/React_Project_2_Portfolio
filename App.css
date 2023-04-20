@@ -1,0 +1,19 @@
+.div1{
+  position: absolute;
+}
+.div2{
+  position: relative;
+}
+.div3{
+  position: absolute;
+  background-color: black;
+}
+.div4{
+  position: relative;
+}
+.foot{
+position: relative;
+min-height: 200px;
+color: white;
+
+}

@@ -1,0 +1,15 @@
+.f{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: rgb(128, 117, 117);
+}
+.f>h5{
+    font-size: 50px;
+}
+.inner>a{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size:40px;
+    background-color: rgb(11, 11, 11);
+}

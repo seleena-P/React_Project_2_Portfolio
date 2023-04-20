@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Sofia+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.skillcontainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:200px 0;
+    height: 100vh;
+    background: ;
+}
+.innerbox{
+    width:1600px;
+    height:90vh;
+    max-width: 2200px;
+    background-color:rgb(255, 255, 255) ;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 0 0 20px 10px rgba(0,0,0,.4);
+    overflow: hidden;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    z-index:1000;
+}
+.soft{
+    flex:0.5;
+    text-align: center;
+    margin-right: 100px;
+    padding-left: 70px;
+    padding-top: 170px;
+}
+.skillcontainer-text{
+    color:black;
+    flex:0.5;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 20px;
+    padding-top: 110px;
+    padding-left: 70px;
+}
+.soft-text{
+    flex:0.5;
+    text-align: left;
+    max-width: 600px;
+    margin-bottom: 0px;
+    padding-top: 90px;
+}
+.soft-text>h4{
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-family: 'Yantramanav', sans-serif;
+    text-align: center;
+}
+.innerbox::before{
+    position: absolute;
+    content:'';
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    left:-10%;
+    bottom:9%;
+    background: linear-gradient(45deg,#fbf704ca,rgba(62, 218, 15, 0.846));
+   
+}
+.soft-text>h2{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+}
+.skillcontainer-text > h2{
+    font-size: 25px;
+}
+.skillsetcontainer > h5{
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.skillcontainer-slider > .MuiLinearProgress-colorPrimary{
+        background-color: rgba(132, 129, 129, 0.66);
+}
+.skillcontainer-slider1 > span >.MuiLinearProgress-barColorPrimary{
+        background-color: #B4C424;
+}
+.skillcontainer-slider2 > span >.MuiLinearProgress-barColorPrimary{
+        background-color: #71c21f;
+}
+.skillcontainer-slider3 > span >.MuiLinearProgress-barColorPrimary{
+        background-color: #e6d817;
+}
+.skillcontainer-slider4 > span >.MuiLinearProgress-barColorPrimary{
+        background-color: #1b5a17;
+}
+.innerbox::before{
+    position: absolute;
+    content:'';
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    left:55%;
+    bottom:10%;
+    background: linear-gradient(45deg,#98e10fc8,rgb(218, 215, 15));
+    animation: object3 6s linear infinite;
+}
